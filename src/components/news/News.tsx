@@ -13,7 +13,7 @@ const News = () => {
             points of using.
           </p>
         </div>
-        
+
         <div className='news__grid grid grid-cols-1 xl:grid-cols-3'>
           {Array.from({ length: 3 }, (_, index) => (
             <div
@@ -28,7 +28,7 @@ const News = () => {
               />
               <div className='flex flex-col gap-[30px]'>
                 <h3 className='h3'>
-                  Let's Get Solution For Builing Constructions Work
+                {`Let's Get Solution For Builing Constructions Work`}
                 </h3>
                 <div className='flex items-center justify-between'>
                   <p className='text-base'>22 June, 2024</p>
