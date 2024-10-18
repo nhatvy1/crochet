@@ -31,7 +31,7 @@ const About = () => {
           </div>
           <div className='about__img order-1 xl:order-none ordermax-w-[453px] mx-auto xl:max-w-none xl:mx-0'>
             <Image
-              src='/about/img.png'
+              src='/about/img.jpg'
               alt='about'
               width={453}
               height={453}
